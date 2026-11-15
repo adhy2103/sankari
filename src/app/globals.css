@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;700&family=Noto+Serif+Malayalam:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --royal-maroon: #641C28;
+    --antique-gold: #C5A059;
+    --warm-ivory: #FFF8EC;
+    --sandalwood: #E8D9BD;
+    --deep-brown: #241510;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-warm-ivory text-deep-brown font-body;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-sandalwood;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-antique-gold rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gold-dark;
+  }
+}
+
+@layer components {
+  /* Gold border ornament */
+  .gold-border {
+    border: 1px solid theme('colors.antique-gold');
+  }
+
+  .gold-border-thick {
+    border: 2px solid theme('colors.antique-gold');
+  }
+
+  /* Ornamental divider */
+  .ornamental-divider {
+    @apply flex items-center gap-4 my-8;
+  }
+  .ornamental-divider::before,
+  .ornamental-divider::after {
+    content: '';
+    @apply flex-1 h-px bg-antique-gold opacity-40;
+  }
+
+  /* Section headings */
+  .section-heading {
+    @apply font-heading text-4xl md:text-5xl lg:text-6xl text-royal-maroon leading-tight;
+  }
+
+  .section-subheading {
+    @apply font-heading text-xl md:text-2xl text-antique-gold italic;
+  }
+
+  /* Premium card */
+  .premium-card {
+    @apply bg-warm-ivory border border-antique-gold/30 rounded-sm shadow-card 
+           transition-all duration-500 hover:shadow-gold hover:border-antique-gold/70;
+  }
+
+  /* Gold button */
+  .btn-gold {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-antique-gold text-deep-brown 
+           font-body font-semibold text-sm tracking-widest uppercase 
+           border border-antique-gold transition-all duration-300
+           hover:bg-transparent hover:text-antique-gold;
+  }
+
+  /* Maroon button */
+  .btn-maroon {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-royal-maroon text-warm-ivory 
+           font-body font-semibold text-sm tracking-widest uppercase
+           border border-royal-maroon transition-all duration-300
+           hover:bg-transparent hover:text-royal-maroon;
+  }
+
+  /* Ghost gold button */
+  .btn-ghost-gold {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-transparent text-antique-gold 
+           font-body font-semibold text-sm tracking-widest uppercase
+           border border-antique-gold transition-all duration-300
+           hover:bg-antique-gold hover:text-deep-brown;
+  }
+
+  /* Text gradient gold */
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-antique-gold via-gold-light to-antique-gold bg-clip-text text-transparent;
+  }
+
+  /* Paper texture overlay */
+  .paper-texture {
+    position: relative;
+  }
+  .paper-texture::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Lotus divider */
+  .lotus-divider {
+    @apply flex items-center justify-center gap-6 my-12;
+  }
+  .lotus-divider::before,
+  .lotus-divider::after {
+    content: '';
+    @apply flex-1 h-px;
+    background: linear-gradient(90deg, transparent, theme('colors.antique-gold'), transparent);
+  }
+
+  /* Floating particle */
+  .particle {
+    @apply absolute rounded-full bg-antique-gold/20 pointer-events-none;
+    animation: particle 8s linear infinite;
+  }
+}
+
+@layer utilities {
+  .text-shadow-gold {
+    text-shadow: 0 0 30px rgba(197, 160, 89, 0.5);
+  }
+
+  .backdrop-gold {
+    backdrop-filter: blur(10px);
+    background: rgba(100, 28, 40, 0.85);
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Cinematic hero overlay */
+.hero-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(36, 21, 16, 0.75) 0%,
+    rgba(100, 28, 40, 0.5) 50%,
+    rgba(36, 21, 16, 0.65) 100%
+  );
+}
+
+/* Gold shimmer effect */
+.gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(197, 160, 89, 0.2) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Page transition */
+.page-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
