@@ -1,0 +1,166 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/app/_not-found/page-221ef7203edcd7a2.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/css/8c3983a34325e0ef.css",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/392-9f679519ff90d358.js",
+      "static/chunks/app/layout-48f25ab133fa6858.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/392-9f679519ff90d358.js",
+      "static/chunks/613-379a262a87f37ccf.js",
+      "static/chunks/app/contact/page-dc685c0693bdb72c.js"
+    ],
+    "/dance/group-dances/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/app/dance/group-dances/page-460f023cce7cbf10.js"
+    ],
+    "/admissions/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/392-9f679519ff90d358.js",
+      "static/chunks/613-379a262a87f37ccf.js",
+      "static/chunks/app/admissions/page-e050ee992f49c1f2.js"
+    ],
+    "/dance/[slug]/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/app/dance/[slug]/page-3c702adc726d42fd.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/app/about/page-74cebaeaa2844a34.js"
+    ],
+    "/dance/indian-classical/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/app/dance/indian-classical/page-249b4ff9f0997e0a.js"
+    ],
+    "/dance/other-dances/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/app/dance/other-dances/page-a95a3b64a9431d6c.js"
+    ],
+    "/dance/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/app/dance/page-33cf1a819ec45bb1.js"
+    ],
+    "/gallery/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/app/gallery/page-0dab60c8aadf0536.js"
+    ],
+    "/dance/zumba/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/app/dance/zumba/page-129016daa4244309.js"
+    ],
+    "/music/[slug]/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/613-379a262a87f37ccf.js",
+      "static/chunks/app/music/[slug]/page-6ea3a26cf1017173.js"
+    ],
+    "/mentors/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/app/mentors/page-4b4094275963431c.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/19-f5620e9167e20045.js",
+      "static/chunks/app/page-5d4116b25988a6da.js"
+    ],
+    "/music/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/app/music/page-16a2a6234b1ef170.js"
+    ],
+    "/privacy/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/app/privacy/page-7b48f447270a0821.js"
+    ],
+    "/music/string-instruments/page": [
+      "static/chunks/webpack-a3c37fcbf859f6f9.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-4f5b424f20efdcae.js",
+      "static/chunks/main-app-ba99a433261a4270.js",
+      "static/chunks/726-8f23ce4abe8976b4.js",
+      "static/chunks/183-4eaee48792bc276d.js",
+      "static/chunks/app/music/string-instruments/page-1ba2419fa7ba2bcd.js"
+    ]
+  }
+}
